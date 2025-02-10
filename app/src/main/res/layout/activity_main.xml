@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:background="#48B2E7">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="58dp"
+        android:text="ДОБРО\nПОЖАЛОВАТЬ"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"/>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="462dp"
+        android:src="@mipmap/ic_cros" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="26dp"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="43dp"
+            android:layout_height="12px"
+            android:background="@drawable/borderwhite"/>
+        
+        <LinearLayout
+            android:layout_width="28dp"
+            android:layout_height="10px"
+            android:layout_marginStart="12dp"
+            android:background="@drawable/border"/>
+
+        <LinearLayout
+            android:layout_width="28dp"
+            android:layout_height="10px"
+            android:layout_marginStart="12dp"
+            android:background="@drawable/border"/>
+
+
+    </LinearLayout>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:text="Начать"
+        android:background="@drawable/backbtn"
+        android:layout_marginTop="76dp"
+        android:textAllCaps="false"
+        android:textSize="14sp"/>
+
+</LinearLayout>
